@@ -1,0 +1,30 @@
+.cardPremium1{
+    position: relative;
+    bottom: 2rem;
+    overflow: hidden;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 0.3s ease;
+}
+.cardPremium1:hover{
+    box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-1%);
+    
+}
+
+.cardPremium{
+   
+    overflow: hidden;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 0.3s ease;
+}
+.cardPremium:hover{
+    box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-1%);
+    
+}
+.listcheck{
+   position: relative;
+   top: 0.3rem;
+}
