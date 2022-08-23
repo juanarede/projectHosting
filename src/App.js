@@ -1,9 +1,6 @@
 import "./App.css";
-import Navbar from "./components/header/Navbarapp";
-import Footer from "./components/footer/Footer"
-import MainSection from "./components/mainsection/MainSection";
-import MyRoutes from "./routes/MyRoutes";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import UserMain from './userMain/UserMain';
 
 const myTheme = createTheme({
   palette: {
@@ -32,10 +29,7 @@ function App() {
   return (
     <div>
       <ThemeProvider theme={myTheme}>
-        <Navbar />
-        <MainSection />
-        <MyRoutes />
-        <Footer/>
+       <UserMain/>
       </ThemeProvider>
     </div>
   );

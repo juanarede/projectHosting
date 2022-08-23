@@ -1,6 +1,12 @@
 .bg-main {
+  
     background-color: #B871F9;
+    z-index: -1;
+    
+    
 }
+
+
 
 .search-box {
     width: 30rem;
@@ -9,8 +15,6 @@
     border: 1px solid #ccc;
     padding: 5px;
     border-radius: 4px;
-
-
 }
 
 .search-form {

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import "./footer.css"
 import Word from "../../assets/img/word.png"
+import Logo from "../../assets/img/logo.png"
 
 
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -25,7 +26,7 @@ function Footer() {
         <Grid container spacing={4}>
           <Grid item xs={12} sm={4}>
             <Box textAlign="left" variant="h1" marginBottom={3}>
-              <Typography variant="h4">LOGO</Typography>
+              <Typography variant="h4"><img width="150rem" src={Logo} alt=""/></Typography>
             </Box>
             <Box textAlign="left">
               <Typography

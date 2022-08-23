@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 
 import { AppBar, Typography, Toolbar, Tabs, Tab, Container,Button, Box } from "@mui/material";
 import LoginIcon from '@mui/icons-material/Login';
+import Logo from "../../assets/img/logo.png"
 
 function Navbarapp() {
 
@@ -39,14 +40,14 @@ function Navbarapp() {
         <Container>
           <Toolbar >
           <Box xs={{paddingTop:"1.5rem" }}>
-          <Typography fontSize={24}>LOGO</Typography>
+          <Typography  color="#fff" fontSize={24}><img width="150rem" src={Logo} alt=""/></Typography>
           </Box>
             
-            <Tabs sx={{ marginLeft: "auto",paddingTop:"0.2rem" }} textColor="#fff">
-              <Tab  label="Hosting" />
-              <Tab label="Dominio" />
-              <Tab label="Contacto" />
-              <Button variant="outlined" color="secondary"><LoginIcon/>Ingresar</Button>
+            <Tabs sx={{ marginLeft: "auto",paddingTop:"0.2rem"}} fontSize={24}  >
+              <Tab  sx={{color:"#fff",fontWeight:"bold"}}  label="Hosting" />
+              <Tab sx={{color:"#fff",fontWeight:"bold"}} label="Dominio" />
+              <Tab sx={{color:"#fff",fontWeight:"bold"}}  label="Contacto" />
+              <Button variant="contained" color="primary"><LoginIcon/>Ingresar</Button>
             </Tabs>
           </Toolbar>
         </Container>

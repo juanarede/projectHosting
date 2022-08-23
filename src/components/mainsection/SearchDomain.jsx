@@ -4,11 +4,12 @@ import React from 'react'
 
 import "./searchdomain.css"
 
+
 function SearchDomain() {
   return (
     <Box className="bg-main">
-      <Container>
-        <Box
+    <Container>
+    <Box
           sx={{
             display: "flex",
             justifyContent: "center",
@@ -42,6 +43,9 @@ function SearchDomain() {
             </form>
           </Box>
         </Box>
+    
+      
+      
           
         
       </Container>
